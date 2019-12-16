@@ -1,0 +1,19 @@
+{
+  "name": "increment-integers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dbsync": "node_modules/.bin/sequelize db:migrate --config config/config.json"
+  },
+  "author": "Muhammad Zubair",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sequelize": "^5.21.3",
+    "sqlite3": "^4.1.1",
+    "uuid-apikey": "^1.4.6"
+  }
+}

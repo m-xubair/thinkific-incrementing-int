@@ -9,6 +9,11 @@ const Dashboard = (props) => {
     const [resetInteger, setResetInteger] = useState(1);
     const [myInteger, setMyInteger] = useState('');
     useEffect(() => {
+        const api_key = localStorage.getItem('_api_key');
+        if(!api_key) {
+            props.history.push('sign-in');
+            return;
+        }
         getCurrent().then((response) => {
             setMyInteger(response.data.current);
         });

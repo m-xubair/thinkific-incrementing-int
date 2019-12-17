@@ -26,7 +26,7 @@ const SignUp = (props) => {
     }
 
     return (
-        <div className="auth-inner">
+        <div className="inner-container">
             <form>
                 <h3>Sign Up</h3>
                 {

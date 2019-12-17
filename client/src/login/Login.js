@@ -27,7 +27,7 @@ const Login = (props) => {
         });
     }
     return (
-        <div className="auth-inner">
+        <div className="inner-container">
              
                 <form>
                     <h3>Sign In</h3>

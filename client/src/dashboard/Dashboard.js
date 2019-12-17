@@ -41,7 +41,7 @@ const Dashboard = (props) => {
 
 
     return (
-        <divc className="auth-inner">
+        <divc className="inner-container">
                 <div className="key-container">
                     <div className="show-key">
                         {

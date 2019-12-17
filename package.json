@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dbsync": "node_modules/.bin/sequelize db:migrate --config config/config.json"
   },
   "author": "Muhammad Zubair",

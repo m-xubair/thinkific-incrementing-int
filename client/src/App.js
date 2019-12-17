@@ -41,7 +41,7 @@ const App = (props) => {
         </div>
       </nav>
 
-      <div className="auth-wrapper">
+      <div className="main-wrapper">
         
           <Switch>
             <Route exact path='/' render={(props) => <Login {...props} handleUpdateLogin={handleUpdateLogin} />} />
